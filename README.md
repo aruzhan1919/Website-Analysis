@@ -2,6 +2,7 @@
 This mini project aims to analyze user interaction data collected from a website to uncover usage patterns, detect potential usability issues, and make data-driven suggestions.
 
 **Objective**
+
 Analyze logs of user actions on a website.
 
 Identify potential usability or performance problems based on user interaction.
@@ -9,6 +10,7 @@ Identify potential usability or performance problems based on user interaction.
 Provide initial findings and thoughts about the nature and structure of the dataset.
 
 **Dataset Description**
+
 Each record in the dataset represents a user event:
 
 EventName: Name of the user event (e.g., page visit, click).
@@ -20,6 +22,7 @@ EventTimestamp: Timestamp of the event in Unix format.
 ExpId: Experiment group identifier — 246 and 247 are control groups, while 248 is the experimental group.
 
 **Project Tasks**
+
 Step 1: Load and Explore the Data
 
 Convert Unix timestamps to human-readable datetime format.
@@ -51,6 +54,7 @@ Identify which pages receive the most traffic.
 The home page is the most visited, which is typical behavior as users start their journey there.
 
 **Preliminary Findings**
+
 The dataset is clean with no missing values.
 
 User distribution across experimental groups is relatively even.
@@ -58,6 +62,7 @@ User distribution across experimental groups is relatively even.
 The homepage is the most interacted-with element, suggesting it is either the entry point or where users spend the most time.
 
 **Technologies Used**
+
 Python
 
 Pandas
